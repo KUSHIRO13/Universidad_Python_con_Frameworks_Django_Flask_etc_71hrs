@@ -24,7 +24,7 @@ class Aritmetica:
 
     def division(self):
         division = self.num2 / self.num1
-        return f"La division entre {self.num2} y {self.num1} es: {division}"
+        return f"La division entre {self.num2} y {self.num1} es: {division:.2f}"
 
 
 matematicas = Aritmetica(5, 3)
