@@ -6,24 +6,29 @@ class Vehiculo:
     def __str__(self):
         return f"es de color {self._color} y tiene {self._ruedas} ruedas"
 
+    # Decorador de propiedad
     @property
     def color(self):
         return self._color
-    @color.setter
-    def color(self, color):
-        self._color = color
 
     @property
     def ruedas(self):
         return self._ruedas
 
+    # Decorador de set
+
+    @color.setter
+    def color(self, color):
+        self._color = color
+
     @ruedas.setter
     def ruedas(self, ruedas):
         self._ruedas = ruedas
 
+
 class Bicicleta(Vehiculo):
     def __init__(self, tipo, color, ruedas):
-        super().__init__(color,ruedas)
+        super().__init__(color, ruedas)
         self._tipo = tipo
 
     def __str__(self):
@@ -39,6 +44,7 @@ class Bicicleta(Vehiculo):
     @tipo.setter
     def tipo(self, tipo):
         self._tipo = tipo
+
 
 class Coche(Vehiculo):
 
@@ -60,6 +66,7 @@ class Coche(Vehiculo):
     def velocidad(self, velocidad):
         self._velocidad = velocidad
 
+
 if __name__ == "__main__":
     # Crear objeto bicicleta e imprimirlo
     bicicleta1 = Bicicleta("Urbanisacion", "Roja", 2)
@@ -78,4 +85,3 @@ if __name__ == "__main__":
     print(coche1)
     # Eliminarlo
     del coche1
-
