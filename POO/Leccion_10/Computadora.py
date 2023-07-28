@@ -16,7 +16,7 @@ class Computadora:
 
     def __str__(self):
         s = "/".center(29, "/")
-        return f"{s}\nComputadora {self._nombre} Id: {self.__idComputador}" \
+        return f"\n{s}\nComputadora {self._nombre} Id: {self.__idComputador}" \
                f"\n{self._monitor.__str__()}\n{self._teclado.__str__()}\n{self._raton.__str__()}"
 
     @property
