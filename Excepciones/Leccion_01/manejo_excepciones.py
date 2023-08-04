@@ -1,9 +1,12 @@
+from NumerosIdenticosExeption import NumerosIdenticos
 resultado = None
 a = "10"
 b = 0
 try:
     a = int(input("Primer numero: "))
     b = int(input("Segundo numero: "))
+    if a == b:
+        raise NumerosIdenticos("Numeros identicos")
     resultado = a/b
 except ValueError:
     print("Solo debes ingresar numeros")
