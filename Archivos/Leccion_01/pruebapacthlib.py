@@ -20,4 +20,23 @@ print(rutapura)
 crercarpet = Path("HolaPath").mkdir(exist_ok=True)
 
 # Crear carpeta sobre carpeta
-pathcrear = PurePath.joinpath(Path.cwd(),"Konn", "ichiwa").mkdir(parents=True)
+# pathcrear = PurePath.joinpath(Path.cwd(),"Konn", "ichiwa").mkdir(parents=True)
+
+# Renombrar archivos
+# carpetaobjetivo = Path("HolaPath")
+# carpetaActual = Path("HolaPath2")
+#
+# Path.rename(carpetaobjetivo,carpetaActual)
+
+# Comprobar si existe
+arch = Path("OsHola")
+print(arch.exists())
+
+script = Path("pruebaos.py")
+print(script.resolve())
+print(script.stem)
+print(script.suffix)
+if script.suffix == ".py":
+    print("es un archivo de python")
+print(script.stat().st_size)
+
