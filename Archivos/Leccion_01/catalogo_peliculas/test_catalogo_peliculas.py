@@ -1,6 +1,6 @@
 # Importaciones
-from catalogo_peliculas.dominio.pelicula import Pelicula
-from catalogo_peliculas.servicio.catalogopeliculas import CatalogoPeliculas
+from dominio.pelicula import Pelicula
+from servicio.catalogopeliculas import CatalogoPeliculas
 
 if __name__ == "__main__":
     # Declaraciones
