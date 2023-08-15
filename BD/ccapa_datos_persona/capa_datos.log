@@ -1,0 +1,849 @@
+04:43:48 PM: DEBUG [logger_base.py:14] Mensaje a nivel debug
+04:43:48 PM: INFO [logger_base.py:15] Mensaje a nivel info
+04:43:48 PM: WARNING [logger_base.py:16] Mensaje a nivel warning
+04:43:48 PM: ERROR [logger_base.py:17] Mensaje a nivel error
+04:43:48 PM: CRITICAL [logger_base.py:18] Mensaje a nivel critico
+2023-08-09 16:45:56,809: DEBUG [logger_base.py:14] Mensaje a nivel debug
+2023-08-09 16:45:56,809: INFO [logger_base.py:15] Mensaje a nivel info
+2023-08-09 16:45:56,810: WARNING [logger_base.py:16] Mensaje a nivel warning
+2023-08-09 16:45:56,810: ERROR [logger_base.py:17] Mensaje a nivel error
+2023-08-09 16:45:56,810: CRITICAL [logger_base.py:18] Mensaje a nivel critico
+04:46:32 PM: DEBUG [logger_base.py:14] Mensaje a nivel debug
+04:46:32 PM: INFO [logger_base.py:15] Mensaje a nivel info
+04:46:32 PM: WARNING [logger_base.py:16] Mensaje a nivel warning
+04:46:32 PM: ERROR [logger_base.py:17] Mensaje a nivel error
+04:46:32 PM: CRITICAL [logger_base.py:18] Mensaje a nivel critico
+09:04:09 PM: DEBUG [logger_base.py:14] Mensaje a nivel debug
+09:04:09 PM: INFO [logger_base.py:15] Mensaje a nivel info
+09:04:09 PM: WARNING [logger_base.py:16] Mensaje a nivel warning
+09:04:09 PM: ERROR [logger_base.py:17] Mensaje a nivel error
+09:04:09 PM: CRITICAL [logger_base.py:18] Mensaje a nivel critico
+09:53:54 PM: DEBUG [persona.py:43] 
+Id Persona: 1
+Nombre: Andres   Apellido: Lara
+Gmail: alara@gmail.com
+09:59:35 PM: DEBUG [persona.py:43] 
+Id Persona: 1
+Nombre: Andres   Apellido: Lara
+Gmail: alara@gmail.com
+10:01:18 PM: DEBUG [persona.py:43] 
+Id Persona: 1
+Nombre: Andres   Apellido: Lara
+Gmail: alara@gmail.com
+10:01:18 PM: DEBUG [persona.py:46] 
+Id Persona: NULL
+Nombre: Carlos   Apellido: Gutierres
+Gmail: cgutierres@gmail.com
+10:03:04 PM: DEBUG [persona.py:44] 
+	Id Persona: 1
+	Nombre: Andres   Apellido: Lara
+	Gmail: alara@gmail.com
+10:03:04 PM: DEBUG [persona.py:47] 
+	Id Persona: None
+	Nombre: Carlos   Apellido: Gutierres
+	Gmail: cgutierres@gmail.com
+10:03:04 PM: WARNING [persona.py:50] 
+	Id Persona: 1
+	Nombre: NULL   Apellido: NULL
+	Gmail: NULL
+05:32:21 AM: ERROR [conexion.py:27] Ocurrio un error tipo: 'connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgress"
+' al obtener la conexion
+05:33:34 AM: INFO [conexion.py:24] Conexion exitosa: '<connection object at 0x000001D496C6E9B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+05:34:17 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000016E7530E9B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+05:35:27 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x00000171515929B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+05:35:27 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x00000171515BE500; closed: 0>'
+05:36:01 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000002B7F02F29B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+05:36:01 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000002B7F031E500; closed: 0>'
+06:11:06 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x00000161514369B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:11:06 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000016152F50BA0; closed: 0>'
+06:13:11 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x00000158FE2F9580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:13:24 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x00000158FE28D460; closed: 0>'
+06:15:47 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001EE9720AAC0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:16:08 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001EE971B9B60; closed: 0>'
+06:22:57 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000026C51A85F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:22:57 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000026C53B48120; closed: 0>'
+06:27:13 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000023A5BD75F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:27:13 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000023A5DE58120; closed: 0>'
+06:28:52 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000022A7771AAC0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:28:52 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000022A777A4740; closed: 0>'
+06:32:10 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x00000166A60F5F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:32:10 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x00000166A81B8120; closed: 0>'
+06:34:29 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001CFD4C95F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:34:29 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001CFD6DC8120; closed: 0>'
+06:35:20 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000016FCBB45F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:35:20 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000016FCDBA8120; closed: 0>'
+06:37:41 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000002C5B63A5F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:37:41 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000002C5B8430660; closed: 0>'
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:37:43 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002C5B842EE10>, <persona.Persona object at 0x000002C5B842EE50>, <persona.Persona object at 0x000002C5B842EE90>, <persona.Persona object at 0x000002C5B842EED0>, <persona.Persona object at 0x000002C5B842EF10>, <persona.Persona object at 0x000002C5B842EF90>, <persona.Persona object at 0x000002C5B842EFD0>, <persona.Persona object at 0x000002C5B842F010>, <persona.Persona object at 0x000002C5B842F050>, <persona.Persona object at 0x000002C5B842EF50>, <persona.Persona object at 0x000002C5B842F090>, <persona.Persona object at 0x000002C5B842F0D0>, <persona.Persona object at 0x000002C5B842F110>]
+06:39:30 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000020BD9B05F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:39:30 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000020BDBC28120; closed: 0>'
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:39:30 AM: DEBUG [person_dao.py:31] [(5, 'Juan', 'Perez', 'jperez@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com')]
+06:40:13 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000002A77BCE5F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:40:13 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000002A77DD88120; closed: 0>'
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:13 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000002A77DD8DB10>, <persona.Persona object at 0x000002A77DD8DB50>, <persona.Persona object at 0x000002A77DD8DB90>, <persona.Persona object at 0x000002A77DD8DBD0>, <persona.Persona object at 0x000002A77DD8DC10>, <persona.Persona object at 0x000002A77DD8DC90>, <persona.Persona object at 0x000002A77DD8DCD0>, <persona.Persona object at 0x000002A77DD8DD10>, <persona.Persona object at 0x000002A77DD8DD50>, <persona.Persona object at 0x000002A77DD8DC50>, <persona.Persona object at 0x000002A77DD8DD90>, <persona.Persona object at 0x000002A77DD8DDD0>, <persona.Persona object at 0x000002A77DD8DE10>]
+06:40:49 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001F2EC26AAC0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:40:49 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001F2EC1FB3E0; closed: 0>'
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:40:49 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001F2EC314150>, <persona.Persona object at 0x000001F2EC314190>, <persona.Persona object at 0x000001F2EC314210>, <persona.Persona object at 0x000001F2EC314490>, <persona.Persona object at 0x000001F2EC3144D0>, <persona.Persona object at 0x000001F2EC3143D0>, <persona.Persona object at 0x000001F2EC314550>, <persona.Persona object at 0x000001F2EC3145D0>, <persona.Persona object at 0x000001F2EC314610>, <persona.Persona object at 0x000001F2EC314510>, <persona.Persona object at 0x000001F2EC314690>, <persona.Persona object at 0x000001F2EC314590>, <persona.Persona object at 0x000001F2EC3146D0>]
+06:41:10 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000024C7CDAACE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:41:10 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000024C7CD3EDC0; closed: 0>'
+06:45:31 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000015713C85F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:45:31 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000015715D68120; closed: 0>'
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:45:31 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000015715D83E50>, <persona.Persona object at 0x0000015715D83E90>, <persona.Persona object at 0x0000015715D83ED0>, <persona.Persona object at 0x0000015715D83F10>, <persona.Persona object at 0x0000015715D83F50>, <persona.Persona object at 0x0000015715D83FD0>, <persona.Persona object at 0x0000015715D8C050>, <persona.Persona object at 0x0000015715D8C090>, <persona.Persona object at 0x0000015715D8C0D0>, <persona.Persona object at 0x0000015715D83F90>, <persona.Persona object at 0x0000015715D8C110>, <persona.Persona object at 0x0000015715D8C150>, <persona.Persona object at 0x0000015715D8C190>]
+06:46:06 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001D1859F5F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:46:06 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001D187A58120; closed: 0>'
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:06 AM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x000001D187A5DB10>, <persona.Persona object at 0x000001D187A5DB50>, <persona.Persona object at 0x000001D187A5DB90>, <persona.Persona object at 0x000001D187A5DBD0>, <persona.Persona object at 0x000001D187A5DC10>, <persona.Persona object at 0x000001D187A5DC90>, <persona.Persona object at 0x000001D187A5DCD0>, <persona.Persona object at 0x000001D187A5DD10>, <persona.Persona object at 0x000001D187A5DD50>, <persona.Persona object at 0x000001D187A5DC50>, <persona.Persona object at 0x000001D187A5DD90>, <persona.Persona object at 0x000001D187A5DDD0>, <persona.Persona object at 0x000001D187A5DE10>]
+06:46:54 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001E380325F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:46:54 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001E382448120; closed: 0>'
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+06:46:54 AM: DEBUG [person_dao.py:31] ['\n\tId Persona: 5\n\tNombre: Juan   Apellido: Perez\n\tGmail: jperez@gmail.com', '\n\tId Persona: 6\n\tNombre: Carlos   Apellido: Gutierres\n\tGmail: cgutierres', '\n\tId Persona: 8\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 10\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 11\n\tNombre: Carlos   Apellido: Lara\n\tGmail: clara@gmail.com', '\n\tId Persona: 12\n\tNombre: Kevin   Apellido: Carlos\n\tGmail: kcarlos@gmail.com', '\n\tId Persona: 13\n\tNombre: Angel   Apellido: Quintana\n\tGmail: aquintana@gmail.com', '\n\tId Persona: 15\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 16\n\tNombre: Maria   Apellido: Esparsa\n\tGmail: mesparsa@gmail.com', '\n\tId Persona: 17\n\tNombre: Carlos   Apellido: Gomez\n\tGmail: cgomez@gmail.com', '\n\tId Persona: 24\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 36\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com', '\n\tId Persona: 37\n\tNombre: Alex   Apellido: Rojas\n\tGmail: arojas@gmail.com']
+07:10:10 PM: DEBUG [persona.py:44] 
+	Id Persona: 1
+	Nombre: Andres   Apellido: Lara
+	Gmail: alara@gmail.com
+07:10:10 PM: DEBUG [persona.py:47] 
+	Id Persona: None
+	Nombre: Carlos   Apellido: Gutierres
+	Gmail: cgutierres@gmail.com
+07:10:10 PM: WARNING [persona.py:50] 
+	Id Persona: 1
+	Nombre: NULL   Apellido: NULL
+	Gmail: NULL
+07:14:44 PM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000021B7CD15F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+07:14:44 PM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000021B7ED78120; closed: 0>'
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:14:45 PM: DEBUG [person_dao.py:31] [<persona.Persona object at 0x0000021B7ED7DB50>, <persona.Persona object at 0x0000021B7ED7DB90>, <persona.Persona object at 0x0000021B7ED7DBD0>, <persona.Persona object at 0x0000021B7ED7DC10>, <persona.Persona object at 0x0000021B7ED7DC50>, <persona.Persona object at 0x0000021B7ED7DCD0>, <persona.Persona object at 0x0000021B7ED7DD10>, <persona.Persona object at 0x0000021B7ED7DD50>, <persona.Persona object at 0x0000021B7ED7DD90>, <persona.Persona object at 0x0000021B7ED7DC90>, <persona.Persona object at 0x0000021B7ED7DDD0>, <persona.Persona object at 0x0000021B7ED7DE10>, <persona.Persona object at 0x0000021B7ED7DE50>]
+07:22:21 PM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000019F73325F10; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+07:22:21 PM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000019F753D8120; closed: 0>'
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 5
+	Nombre: Juan   Apellido: Perez
+	Gmail: jperez@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 6
+	Nombre: Carlos   Apellido: Gutierres
+	Gmail: cgutierres
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 8
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 10
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 11
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 12
+	Nombre: Kevin   Apellido: Carlos
+	Gmail: kcarlos@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 13
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 15
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 16
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 17
+	Nombre: Carlos   Apellido: Gomez
+	Gmail: cgomez@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 24
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 36
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:22:23 PM: DEBUG [person_dao.py:31] 
+	Id Persona: 37
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:55:46 PM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001FF5282EAC0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+07:55:46 PM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001FF5433C040; closed: 0>'
+07:55:47 PM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:55:47 PM: DEBUG [person_dao.py:41] Personas insertadas: 1
+07:55:47 PM: WARNING [conexion.py:42] Precaucion ya existia un objeto de conexion
+07:56:49 PM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000025D7980EAC0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+07:56:49 PM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000025D7B318120; closed: 0>'
+07:56:49 PM: DEBUG [person_dao.py:32] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:56:49 PM: DEBUG [person_dao.py:40] Personas insertadas: 1
+07:56:49 PM: WARNING [conexion.py:42] Precaucion ya existia un objeto de conexion
+07:58:00 PM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001891CCBEAC0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+07:58:00 PM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:41] Personas insertadas: 1
+07:58:00 PM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001891E7CC580; closed: 0>'
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 5
+	Nombre: Juan   Apellido: Perez
+	Gmail: jperez@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 6
+	Nombre: Carlos   Apellido: Gutierres
+	Gmail: cgutierres
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 8
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 10
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 11
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 12
+	Nombre: Kevin   Apellido: Carlos
+	Gmail: kcarlos@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 13
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 15
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 16
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 17
+	Nombre: Carlos   Apellido: Gomez
+	Gmail: cgomez@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 24
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 36
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 37
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 48
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:58:00 PM: DEBUG [person_dao.py:45] 
+	Id Persona: 50
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+05:58:10 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001F7CD4169B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+05:58:10 AM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+05:58:10 AM: DEBUG [person_dao.py:49] Personas insertadas: 1
+05:58:10 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001F7CEF3C580; closed: 0>'
+05:58:10 AM: DEBUG [person_dao.py:54] (5, 'Juan', 'Perez', 'jperez@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (6, 'Carlos', 'Gutierres', 'cgutierres')
+05:58:10 AM: DEBUG [person_dao.py:54] (8, 'Carlos', 'Lara', 'clara@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (10, 'Angel', 'Quintana', 'aquintana@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (11, 'Carlos', 'Lara', 'clara@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (13, 'Angel', 'Quintana', 'aquintana@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (17, 'Carlos', 'Gomez', 'cgomez@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (24, 'Alex', 'Rojas', 'arojas@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (36, 'Alex', 'Rojas', 'arojas@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (37, 'Alex', 'Rojas', 'arojas@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (48, 'Pedro', 'Najera', 'pnajera@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (50, 'Pedro', 'Najera', 'pnajera@gmail.com')
+05:58:10 AM: DEBUG [person_dao.py:54] (51, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:06:52 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000015B788329B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:06:52 AM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:06:52 AM: DEBUG [person_dao.py:49] Personas insertadas: 1
+06:06:52 AM: DEBUG [person_dao.py:42] Persona actualizada: 
+	Id Persona: 1
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:06:52 AM: DEBUG [person_dao.py:54] Personas actulizadas: 0
+06:06:52 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000015B7A33C3C0; closed: 0>'
+06:06:52 AM: DEBUG [person_dao.py:59] (5, 'Juan', 'Perez', 'jperez@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (6, 'Carlos', 'Gutierres', 'cgutierres')
+06:06:52 AM: DEBUG [person_dao.py:59] (8, 'Carlos', 'Lara', 'clara@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (10, 'Angel', 'Quintana', 'aquintana@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (11, 'Carlos', 'Lara', 'clara@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (13, 'Angel', 'Quintana', 'aquintana@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (17, 'Carlos', 'Gomez', 'cgomez@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (24, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (36, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (37, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (48, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (50, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (51, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:06:52 AM: DEBUG [person_dao.py:59] (52, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:08:10 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001A971A329B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:08:10 AM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:08:10 AM: DEBUG [person_dao.py:49] Personas insertadas: 1
+06:08:10 AM: DEBUG [person_dao.py:42] Persona actualizada: 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:08:10 AM: DEBUG [person_dao.py:54] Personas actulizadas: 1
+06:08:10 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001A97359C3C0; closed: 0>'
+06:08:10 AM: DEBUG [person_dao.py:59] (5, 'Juan', 'Perez', 'jperez@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (6, 'Carlos', 'Gutierres', 'cgutierres')
+06:08:10 AM: DEBUG [person_dao.py:59] (8, 'Carlos', 'Lara', 'clara@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (10, 'Angel', 'Quintana', 'aquintana@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (11, 'Carlos', 'Lara', 'clara@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (13, 'Angel', 'Quintana', 'aquintana@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (17, 'Carlos', 'Gomez', 'cgomez@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (24, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (36, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (37, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (48, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (50, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (51, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com')
+06:08:10 AM: DEBUG [person_dao.py:59] (53, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:11:09 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000020A628FABD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:11:09 AM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:11:11 AM: DEBUG [person_dao.py:49] Personas insertadas: 1
+06:11:15 AM: DEBUG [person_dao.py:42] Persona actualizada: 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:11:16 AM: DEBUG [person_dao.py:54] Personas actualizadas: 1
+06:11:27 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000020A6298C740; closed: 0>'
+06:12:14 AM: DEBUG [person_dao.py:59] (5, 'Juan', 'Perez', 'jperez@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (6, 'Carlos', 'Gutierres', 'cgutierres')
+06:12:17 AM: DEBUG [person_dao.py:59] (8, 'Carlos', 'Lara', 'clara@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (10, 'Angel', 'Quintana', 'aquintana@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (11, 'Carlos', 'Lara', 'clara@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (13, 'Angel', 'Quintana', 'aquintana@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (17, 'Carlos', 'Gomez', 'cgomez@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (24, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (36, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (37, 'Alex', 'Rojas', 'arojas@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (48, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (50, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (51, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (53, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:12:17 AM: DEBUG [person_dao.py:59] (54, 'Pedro', 'Najera', 'pnajera@gmail.com')
+06:12:28 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x00000250B98529B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:12:28 AM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:49] Personas insertadas: 1
+06:12:28 AM: DEBUG [person_dao.py:42] Persona actualizada: 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:54] Personas actualizadas: 1
+06:12:28 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x00000250BB35C3C0; closed: 0>'
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 5
+	Nombre: Juan   Apellido: Perez
+	Gmail: jperez@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 6
+	Nombre: Carlos   Apellido: Gutierres
+	Gmail: cgutierres
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 8
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 10
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 11
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 12
+	Nombre: Kevin   Apellido: Carlos
+	Gmail: kcarlos@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 13
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 15
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 16
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 17
+	Nombre: Carlos   Apellido: Gomez
+	Gmail: cgomez@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 24
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 36
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 37
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 48
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 50
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 51
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 53
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 54
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:12:28 AM: DEBUG [person_dao.py:59] 
+	Id Persona: 55
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:19:38 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x00000251770229B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:19:38 AM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:19:38 AM: DEBUG [person_dao.py:59] Personas insertadas: 1
+06:19:38 AM: DEBUG [person_dao.py:42] Persona actualizada: 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:19:38 AM: DEBUG [person_dao.py:64] Personas actualizadas: 1
+06:20:10 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x000001BF7E7829B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:20:10 AM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:59] Personas insertadas: 1
+06:20:10 AM: DEBUG [person_dao.py:42] Persona actualizada: 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:64] Personas actualizadas: 1
+06:20:10 AM: WARNING [person_dao.py:51] Personas eliminados 
+	Id Persona: 53
+	Nombre: NULL   Apellido: NULL
+	Gmail: NULL
+06:20:10 AM: WARNING [person_dao.py:69] Personas eliminadas: 1
+06:20:10 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x000001BF7EEDC040; closed: 0>'
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 5
+	Nombre: Juan   Apellido: Perez
+	Gmail: jperez@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 6
+	Nombre: Carlos   Apellido: Gutierres
+	Gmail: cgutierres
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 8
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 10
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 11
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 12
+	Nombre: Kevin   Apellido: Carlos
+	Gmail: kcarlos@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 13
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 15
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 16
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 17
+	Nombre: Carlos   Apellido: Gomez
+	Gmail: cgomez@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 24
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 36
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 37
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 48
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 50
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 51
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 54
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 55
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 56
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:20:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 57
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:21:10 AM: INFO [conexion.py:24] Conexion exitosa: 
+	'<connection object at 0x0000014FB9D829B0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>'
+06:21:10 AM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:59] Personas insertadas: 1
+06:21:10 AM: DEBUG [person_dao.py:42] Persona actualizada: 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:64] Personas actualizadas: 1
+06:21:10 AM: WARNING [person_dao.py:69] Personas eliminadas: 1
+06:21:10 AM: INFO [conexion.py:37] Se abrio correctamente el cursor: '<cursor object at 0x0000014FBB8CC580; closed: 0>'
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 5
+	Nombre: Juan   Apellido: Perez
+	Gmail: jperez@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 6
+	Nombre: Carlos   Apellido: Gutierres
+	Gmail: cgutierres
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 8
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 10
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 11
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 12
+	Nombre: Kevin   Apellido: Carlos
+	Gmail: kcarlos@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 13
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 15
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 16
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 17
+	Nombre: Carlos   Apellido: Gomez
+	Gmail: cgomez@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 24
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 36
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 37
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 48
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 50
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 51
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 54
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 56
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 57
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+06:21:10 AM: DEBUG [person_dao.py:74] 
+	Id Persona: 58
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+03:21:47 PM: INFO [conexion.py:25] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000026EA703ED90>
+03:21:47 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x0000026EA8A808C0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:21:47 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x0000026EA8A81360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:45 PM: INFO [conexion.py:25] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000024AD48AEE10>
+03:22:45 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x0000024AD62E08C0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:45 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x0000024AD62E1360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:45 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x0000024AD62E1470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:45 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x0000024AD62E1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:45 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x0000024AD62E1690; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:53 PM: INFO [conexion.py:25] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001DF7F05EAD0>
+03:22:53 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x000001DF7F0408C0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:54 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x000001DF7F041360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:54 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x000001DF7F041470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:54 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x000001DF7F041580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:22:54 PM: DEBUG [conexion.py:35] Conexion obtenida del pool <connection object at 0x000001DF7F041690; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:25:25 PM: INFO [conexion.py:25] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000021AE5649150>
+03:25:25 PM: DEBUG [conexion.py:36] Conexion obtenida del pool <connection object at 0x0000021AE73E08C0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:25:26 PM: DEBUG [conexion.py:36] Conexion obtenida del pool <connection object at 0x0000021AE73E1360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:25:26 PM: DEBUG [conexion.py:36] Conexion obtenida del pool <connection object at 0x0000021AE73E1470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:25:26 PM: DEBUG [conexion.py:36] Conexion obtenida del pool <connection object at 0x0000021AE73E1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:25:26 PM: DEBUG [conexion.py:36] Conexion obtenida del pool <connection object at 0x0000021AE73E1690; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:25:26 PM: ERROR [conexion.py:39] Ocurrio un error de tipo connection pool exhausted
+03:26:47 PM: INFO [conexion.py:27] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000017F8ED889D0>
+03:26:47 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000017F90C01030; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:26:47 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000017F90C01360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:26:47 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000017F90C01470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:26:47 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000017F90C01580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:26:47 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000017F90C01690; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:00 PM: INFO [conexion.py:27] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000023F02B3F690>
+03:27:00 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000023F02EF1030; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:00 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000023F02EF1360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:01 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000023F02EF1470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:01 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000023F02EF1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:01 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x0000023F02EF1690; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:18 PM: INFO [conexion.py:27] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002816042ED50>
+03:27:18 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x00000281607C1030; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:18 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x00000281607C1360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:18 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x00000281607C1470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:18 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x00000281607C1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:18 PM: DEBUG [conexion.py:38] Conexion obtenida del pool <connection object at 0x00000281607C1690; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:27:18 PM: ERROR [conexion.py:41] Ocurrio un error de tipo connection pool exhausted
+04:07:17 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002790C1DCCD0>
+04:07:17 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x000002790C1309D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:07:17 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x000002790C1309D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:07:17 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x000002790C1309D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:07:45 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001455C5865D0>
+04:07:45 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x000001455DFE09D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:07:45 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x000001455DFE09D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:07:45 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x000001455DFE09D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:07:45 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x000001455DFE1470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:08:07 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022DDAAFCB10>
+04:08:07 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000022DDAA509D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:08:07 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x0000022DDAA509D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:08:07 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000022DDAA509D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:08:07 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000022DDAA51470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:08:07 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x0000022DDAA509D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+04:08:07 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000022DDAA509D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>

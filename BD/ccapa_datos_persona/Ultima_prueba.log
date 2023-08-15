@@ -1,0 +1,36 @@
+[DEBUG]-2023-08-13 21:28:24,525: prueba1.py-15: Esto seria el DEBUG
+[INFO]-2023-08-13 21:28:24,525: prueba1.py-16: Esto seria el INFO
+[ERROR]-2023-08-13 21:28:24,525: prueba1.py-17: Esto seria el ERROR
+[CRITICAL]-2023-08-13 21:28:24,525: prueba1.py-18: Esto seria el CRITICAL
+[WARNING]-2023-08-13 21:28:24,526: prueba1.py-19: Esto seria el WARNING
+[DEBUG]-09:29 PM: prueba1.py-16: Esto seria el DEBUG
+[INFO]-09:29 PM: prueba1.py-17: Esto seria el INFO
+[ERROR]-09:29 PM: prueba1.py-18: Esto seria el ERROR
+[CRITICAL]-09:29 PM: prueba1.py-19: Esto seria el CRITICAL
+[WARNING]-09:29 PM: prueba1.py-20: Esto seria el WARNING
+[ERROR]-03:51 PM: pruebapool.py-32: Ocurrio un error tipo 'connection to server at "120.0.0.1", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+'
+[INFO]-03:52 PM: pruebapool.py-29: Creacion del pool fue exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000233278E6D90>
+[DEBUG]-03:52 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x00000233296DD250; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[INFO]-04:22 PM: pruebapool.py-29: Creacion del pool fue exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001FE51ACDA50>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x000001FE51ABD360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x000001FE51ABD470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x000001FE51ABD580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x000001FE51ABD690; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x000001FE51ABD7A0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[INFO]-04:22 PM: pruebapool.py-29: Creacion del pool fue exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000022462F1D950>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x0000022462F0D360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[INFO]-04:22 PM: pruebapool.py-49: Se a cerrado la conexion <connection object at 0x0000022462F0D360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x0000022462F0D360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x0000022462F0D470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x0000022462F0D580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:22 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x0000022462F0D690; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[INFO]-04:23 PM: pruebapool.py-29: Creacion del pool fue exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000181C58ADA10>
+[DEBUG]-04:23 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x00000181C589D360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[INFO]-04:23 PM: pruebapool.py-49: Se a cerrado la conexion <connection object at 0x00000181C589D360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:23 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x00000181C589D360; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:23 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x00000181C589D470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:23 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x00000181C589D580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[INFO]-04:23 PM: pruebapool.py-49: Se a cerrado la conexion <connection object at 0x00000181C589D470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+[DEBUG]-04:23 PM: pruebapool.py-41: Conexion Exitosa <connection object at 0x00000181C589D470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>

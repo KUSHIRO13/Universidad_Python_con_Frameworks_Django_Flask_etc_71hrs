@@ -1,0 +1,77 @@
+DEBUG:root:Esto es un debug
+DEBUG:root:Esto es un debug
+INFO:root:Esto es un info
+DEBUG:root:Esto es un debug
+INFO:root:Esto es un info
+ERROR:root:Esto es un error
+CRITICAL:root:Esto es critico
+DEBUG:root:Esto es un debug
+INFO:root:Esto es un info
+ERROR:root:Esto es un error
+CRITICAL:root:Esto es critico
+WARNING:root:Esto es un warning
+DEBUG:root:Esto es un debug
+INFO:root:Esto es un info
+ERROR:root:Esto es un error
+CRITICAL:root:Esto es critico
+WARNING:root:Esto es un warning
+DEBUG:root:Esto es un debug
+INFO:root:Esto es un info
+ERROR:root:Esto es un error
+CRITICAL:root:Esto es critico
+WARNING:root:Esto es un warning
+DEBUG:root:Esto es un debug
+INFO:root:Esto es un info
+ERROR:root:Esto es un error
+CRITICAL:root:Esto es critico
+WARNING:root:Esto es un warning
+2023-08-13 21:17:18,808
+2023-08-13 21:17:18,808
+2023-08-13 21:17:18,808
+2023-08-13 21:17:18,808
+2023-08-13 21:17:18,809
+2023-08-13 21:17:52,853: DEBUG
+2023-08-13 21:17:52,853: INFO
+2023-08-13 21:17:52,853: ERROR
+2023-08-13 21:17:52,853: CRITICAL
+2023-08-13 21:17:52,854: WARNING
+2023-08-13 21:18:22,496: DEBUG [pruebas.py]
+2023-08-13 21:18:22,496: INFO [pruebas.py]
+2023-08-13 21:18:22,496: ERROR [pruebas.py]
+2023-08-13 21:18:22,496: CRITICAL [pruebas.py]
+2023-08-13 21:18:22,497: WARNING [pruebas.py]
+2023-08-13 21:18:45,154: DEBUG [pruebas.py-13]
+2023-08-13 21:18:45,154: INFO [pruebas.py-14]
+2023-08-13 21:18:45,154: ERROR [pruebas.py-15]
+2023-08-13 21:18:45,154: CRITICAL [pruebas.py-16]
+2023-08-13 21:18:45,154: WARNING [pruebas.py-17]
+2023-08-13 21:19:05,068: DEBUG [pruebas.py-13]: Esto es un debug
+2023-08-13 21:19:05,068: INFO [pruebas.py-14]: Esto es un info
+2023-08-13 21:19:05,069: ERROR [pruebas.py-15]: Esto es un error
+2023-08-13 21:19:05,069: CRITICAL [pruebas.py-16]: Esto es critico
+2023-08-13 21:19:05,069: WARNING [pruebas.py-17]: Esto es un warning
+2023-08-13 21:19:31,238: DEBUG [pruebas.py-14]: Esto es un debug
+2023-08-13 21:19:31,239: INFO [pruebas.py-15]: Esto es un info
+2023-08-13 21:19:31,239: ERROR [pruebas.py-16]: Esto es un error
+2023-08-13 21:19:31,239: CRITICAL [pruebas.py-17]: Esto es critico
+2023-08-13 21:19:31,239: WARNING [pruebas.py-18]: Esto es un warning
+09: DEBUG [pruebas.py-14]: Esto es un debug
+09: INFO [pruebas.py-15]: Esto es un info
+09: ERROR [pruebas.py-16]: Esto es un error
+09: CRITICAL [pruebas.py-17]: Esto es critico
+09: WARNING [pruebas.py-18]: Esto es un warning
+2023-08-13 21:19:46,192: DEBUG [pruebas.py-14]: Esto es un debug
+2023-08-13 21:19:46,192: INFO [pruebas.py-15]: Esto es un info
+2023-08-13 21:19:46,192: ERROR [pruebas.py-16]: Esto es un error
+2023-08-13 21:19:46,192: CRITICAL [pruebas.py-17]: Esto es critico
+2023-08-13 21:19:46,192: WARNING [pruebas.py-18]: Esto es un warning
+09:20: DEBUG [pruebas.py-14]: Esto es un debug
+09:20: INFO [pruebas.py-15]: Esto es un info
+09:20: ERROR [pruebas.py-16]: Esto es un error
+09:20: CRITICAL [pruebas.py-17]: Esto es critico
+09:20: WARNING [pruebas.py-18]: Esto es un warning
+09:20:47 PM: DEBUG [pruebas.py-14]: Esto es un debug
+09:20:47 PM: INFO [pruebas.py-15]: Esto es un info
+09:20:47 PM: ERROR [pruebas.py-16]: Esto es un error
+09:20:47 PM: CRITICAL [pruebas.py-17]: Esto es critico
+09:20:47 PM: WARNING [pruebas.py-18]: Esto es un warning
