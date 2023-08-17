@@ -847,3 +847,172 @@ Gmail: cgutierres@gmail.com
 04:08:07 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000022DDAA51470; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
 04:08:07 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x0000022DDAA509D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
 04:08:07 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000022DDAA509D0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:04:28 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:04:28 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000021CA3A88C50>
+07:04:28 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000021CA5881BE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:04:28 PM: INFO [cursor_pool.py:27] Dentro del bloque with
+07:04:28 PM: DEBUG [cursor_pool.py:29] [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+07:04:28 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:04:28 PM: DEBUG [cursor_pool.py:21] Commit de la transacion
+07:04:28 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x0000021CA5881BE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:05:24 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:05:24 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000291B4368C90>
+07:05:24 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x00000291B475CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:06:16 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:06:16 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000026C3E0BD7D0>
+07:06:16 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000026C3C65CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:06:16 PM: INFO [cursor_pool.py:27] Dentro del bloque with
+07:06:16 PM: DEBUG [cursor_pool.py:29] [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+07:06:16 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:06:16 PM: DEBUG [cursor_pool.py:21] Commit de la transacion
+07:06:16 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x0000026C3C65CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:06:23 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:06:23 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001F8670FD7D0>
+07:06:23 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x000001F86566CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:06:23 PM: INFO [cursor_pool.py:27] Dentro del bloque with
+07:06:23 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:06:23 PM: ERROR [cursor_pool.py:18] Ocurrio un error relation "persona1" does not exist
+LINE 1: SELECT * FROM persona1
+                      ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x000001F86710D7C0>
+07:06:23 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x000001F86566CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:06:41 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:06:41 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000028D930FD7D0>
+07:06:41 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x0000028D916ACAE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:06:41 PM: INFO [cursor_pool.py:27] Dentro del bloque with
+07:06:41 PM: DEBUG [cursor_pool.py:29] [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+07:06:41 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:06:41 PM: DEBUG [cursor_pool.py:21] Commit de la transacion
+07:06:41 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x0000028D916ACAE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:09:20 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:10:33 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002D3767F7750>
+07:10:55 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x000002D37911B890; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:11:49 PM: INFO [cursor_pool.py:27] Dentro del bloque with
+07:12:43 PM: DEBUG [cursor_pool.py:29] [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+07:13:05 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:14:00 PM: DEBUG [cursor_pool.py:21] Commit de la transacion
+07:14:23 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x000002D37911B890; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:21:43 PM: INFO [conexion.py:26] POOL Exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000253ECF36790>
+07:21:43 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x00000253ECEA1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: DEBUG [person_dao.py:33] Persona a insertar 
+	Id Persona: None
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:21:43 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:21:43 PM: DEBUG [cursor_pool.py:21] Commit de la transacion
+07:21:43 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x00000253ECEA1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: DEBUG [person_dao.py:57] Personas insertadas: 1
+07:21:43 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:21:43 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x00000253ECEA1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: DEBUG [person_dao.py:41] Persona actualizada: 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+07:21:43 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:21:43 PM: DEBUG [cursor_pool.py:21] Commit de la transacion
+07:21:43 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x00000253ECEA1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: DEBUG [person_dao.py:62] Personas actualizadas: 1
+07:21:43 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:21:43 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x00000253ECEA1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: WARNING [person_dao.py:49] Personas eliminados 
+	Id Persona: 55
+	Nombre: NULL   Apellido: NULL
+	Gmail: NULL
+07:21:43 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:21:43 PM: DEBUG [cursor_pool.py:21] Commit de la transacion
+07:21:43 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x00000253ECEA1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: WARNING [person_dao.py:67] Personas eliminadas: 0
+07:21:43 PM: DEBUG [cursor_pool.py:9] Inicio del metodo with __enter__ 
+07:21:43 PM: DEBUG [conexion.py:37] Conexion obtenida del pool <connection object at 0x00000253ECEA1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: DEBUG [cursor_pool.py:15] Se ejecuta metodo __exit__
+07:21:43 PM: DEBUG [cursor_pool.py:21] Commit de la transacion
+07:21:43 PM: DEBUG [conexion.py:45] Regresamos la conexion del pool: <connection object at 0x00000253ECEA1580; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 5
+	Nombre: Juan   Apellido: Perez
+	Gmail: jperez@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 6
+	Nombre: Carlos   Apellido: Gutierres
+	Gmail: cgutierres
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 8
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 10
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 11
+	Nombre: Carlos   Apellido: Lara
+	Gmail: clara@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 12
+	Nombre: Kevin   Apellido: Carlos
+	Gmail: kcarlos@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 13
+	Nombre: Angel   Apellido: Quintana
+	Gmail: aquintana@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 15
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 16
+	Nombre: Maria   Apellido: Esparsa
+	Gmail: mesparsa@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 17
+	Nombre: Carlos   Apellido: Gomez
+	Gmail: cgomez@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 24
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 36
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 37
+	Nombre: Alex   Apellido: Rojas
+	Gmail: arojas@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 48
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 50
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 51
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 52
+	Nombre: Kevin   Apellido: Pinzon
+	Gmail: kpinzon@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 54
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 56
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 57
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 58
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com
+07:21:43 PM: DEBUG [person_dao.py:72] 
+	Id Persona: 59
+	Nombre: Pedro   Apellido: Najera
+	Gmail: pnajera@gmail.com

@@ -1,4 +1,5 @@
 from conexion import Conexion
+from cursor_pool import Cursor
 from logger_base import log
 from persona import Persona
 
@@ -15,7 +16,7 @@ class PersonaDAO:
 
     @classmethod
     def seleccionar(cls):
-        with Conexion.obtenerCursor() as cursor:
+        with Cursor() as cursor:
             cursor.execute(cls._SELECCIONAR)
             registros = cursor.fetchall()
             personas = []
@@ -26,30 +27,27 @@ class PersonaDAO:
 
     @classmethod
     def insertar(cls, persona):
-        with Conexion.obtenerConexion() as conexion:
-            with conexion.cursor() as cursor:
-                valores = (persona.nombre,persona.apellido,persona.email)
-                cursor.execute(cls._INSERTAR,valores)
-                log.debug(f"Persona a insertar {persona}")
-                return cursor.rowcount
+        with Cursor() as cursor:
+            valores = (persona.nombre,persona.apellido,persona.email)
+            cursor.execute(cls._INSERTAR,valores)
+            log.debug(f"Persona a insertar {persona}")
+            return cursor.rowcount
 
     @classmethod
     def actualizar(cls, persona):
-        with Conexion.obtenerConexion() as conexion:
-            with conexion.cursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
-                cursor.execute(cls._ACTUALIZAR,valores)
-                log.debug(f"Persona actualizada: {persona}")
-                return cursor.rowcount
+        with Cursor() as cursor:
+            valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
+            cursor.execute(cls._ACTUALIZAR,valores)
+            log.debug(f"Persona actualizada: {persona}")
+            return cursor.rowcount
 
     @classmethod
     def eliminar(cls, persona):
-        with Conexion.obtenerConexion() as conexion:
-            with conexion.cursor() as cursor:
-                valores = (persona.id_persona)
-                cursor.execute(cls._ELIMINAR,(valores,))
-                log.warning(f"Personas eliminados {persona}")
-                return cursor.rowcount
+        with Cursor() as cursor:
+            valores = (persona.id_persona)
+            cursor.execute(cls._ELIMINAR,(valores,))
+            log.warning(f"Personas eliminados {persona}")
+            return cursor.rowcount
 
 
 if __name__ == "__main__":
