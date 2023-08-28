@@ -1,0 +1,83 @@
+2023-08-19 14:24:18,009: Esto es un DEBUG
+02:$M PM: Esto es un DEBUG
+02:25 PM: Esto es un DEBUG
+[DEBUG]02:26 PM: (logger_base.py-11) Esto es un DEBUG
+[INFO] 03:23 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x0000016B6C16C8D0>'
+[INFO] 03:23 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000016B6C610E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:24 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x000002DDA73158D0>'
+[INFO] 03:24 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x000002DDA7810E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:24 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x000002DDA7811250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:24 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x000002DDA7811360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:24 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x000002DDA7811470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:24 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x000002DDA7811580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:25 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x0000013E0B6158D0>'
+[INFO] 03:25 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013E0BB10E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:25 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013E0BB11250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:25 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013E0BB11360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:25 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013E0BB11470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:25 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013E0BB11580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[ERROR] 03:25 PM: (conexion.py-40) Ocurrio un error al obtener la conexion connection pool exhausted
+[INFO] 03:31 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x0000015F82F36450>'
+[INFO] 03:31 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000015F83410E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:31 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000015F83411250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:31 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000015F83411360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:31 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000015F83411470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:31 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000015F83411580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[ERROR] 03:31 PM: (conexion.py-40) Ocurrio un error al obtener la conexion connection pool exhausted
+[INFO] 03:32 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x0000013856BC7FD0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013856B10E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013856B11250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013856B11360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013856B11470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013856B11580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:32 PM: (conexion.py-46) Se a cerrado la conexion <connection object at 0x0000013856B10E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000013856B10E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x00000188606C3F90>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000018860610E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000018860611250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000018860611360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000018860611470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000018860611580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:32 PM: (conexion.py-46) Se a cerrado la conexion <connection object at 0x0000018860610E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:32 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000018860610E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:32 PM: (conexion.py-50) Se cerraron todas las conexiones
+[ERROR] 03:32 PM: (conexion.py-40) Ocurrio un error al obtener la conexion connection pool is closed
+[INFO] 03:34 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x0000026D848C9790>'
+[INFO] 03:34 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000026D84812CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:34 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000026D84813450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:34 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000026D84813670; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:34 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000026D84813780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:34 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000026D84813890; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:34 PM: (conexion.py-46) Se a cerrado la conexion <connection object at 0x0000026D84812CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:34 PM: (conexion.py-37) Se consiguio la conexion '<connection object at 0x0000026D84812CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:35 PM: (conexion.py-50) Se cerraron todas las conexiones
+[ERROR] 03:36 PM: (conexion.py-40) Ocurrio un error al obtener la conexion connection pool is closed
+[INFO] 03:38 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x0000021440AC3F50>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000021440A10E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000021440A11250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000021440A11360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000021440A11470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000021440A11580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:38 PM: (conexion.py-48) Se a cerrado la conexion <connection object at 0x0000021440A10E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000021440A10E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:38 PM: (conexion.py-52) Se cerraron todas las conexiones
+[ERROR] 03:38 PM: (conexion.py-42) Ocurrio un error al obtener la conexion connection pool exhausted
+[INFO] 03:38 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x000001C1F91C5110>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x000001C1F9112CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x000001C1F9113450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x000001C1F9113670; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x000001C1F9113780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:38 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x000001C1F9113890; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:38 PM: (conexion.py-48) Se a cerrado la conexion <connection object at 0x000001C1F9112CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:39 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x000001C1F9112CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:40 PM: (conexion.py-52) Se cerraron todas las conexiones
+[INFO] 03:41 PM: (conexion.py-25) Creacion del pool exitosa '<psycopg2.pool.SimpleConnectionPool object at 0x00000160201BA450>'
+[INFO] 03:41 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000016020E12CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:41 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000016020E13450; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:41 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000016020E13670; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:42 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000016020E13780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[INFO] 03:43 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x000001602136E350; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:45 PM: (conexion.py-48) Se a cerrado la conexion <connection object at 0x0000016020E12CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:45 PM: (conexion.py-39) Se consiguio la conexion '<connection object at 0x0000016020E12CE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>'
+[WARNING] 03:46 PM: (conexion.py-52) Se cerraron todas las conexiones
+[ERROR] 03:48 PM: (conexion.py-42) Ocurrio un error al obtener la conexion connection pool exhausted
