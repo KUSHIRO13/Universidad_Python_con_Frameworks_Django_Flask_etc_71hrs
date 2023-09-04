@@ -1,0 +1,245 @@
+06:37 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x0000015CB3EB8E50>
+06:37 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x0000015CB3EB8E50>
+06:40 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000002C2DB32E490>
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002C2DB32E490>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002C2DB32E490>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002C2DB32E490>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002C2DB32E490>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002C2DB32E490>
+06:40 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000002A0B25D9110>
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002A0B25D9110>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002A0B25D9110>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002A0B25D9110>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002A0B25D9110>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002A0B25D9110>
+06:40 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:40 AM [INFO](connetion.py-38): Obteniendo la conexion <psycopg2.pool.SimpleConnectionPool object at 0x000002A0B25D9110>
+06:41 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x00000221406E9150>
+06:41 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000022142490F20; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:41 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:41 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000022142491360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:41 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:41 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000022142491470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:41 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:41 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000022142491580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:41 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:41 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000022142491690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:41 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:41 AM [ERROR](connetion.py-41): Ocurrio un error 'connection pool exhausted'
+06:48 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x0000020CCD449010>
+06:48 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000020CCF201030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:48 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:48 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000020CCF201470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:48 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:48 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000020CCF201580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:48 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:48 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000020CCF201690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:48 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:48 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:48 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000020CCF201030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:48 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:48 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000020CCF2017A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:49 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000001DFE129E4D0>
+06:49 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001DFE1260F20; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:49 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:49 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001DFE1261360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:49 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:49 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001DFE1261470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:49 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:49 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001DFE1261580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:49 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:49 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001DFE1260F20; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:49 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:49 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001DFE1260F20; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:49 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+06:49 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001DFE1261690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:04 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000001DE26ACE590>
+07:04 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001DE28501250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:04 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000001DE28501250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:04 AM [DEBUG](cursor_pool.py-27): Inicio del with
+07:04 AM [DEBUG](cursor_pool.py-29): FIn del With
+07:04 AM [INFO](cursor_pool.py-21): Se realizo commit
+07:04 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:04 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001DE28501250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:05 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x00000257B5BE1490>
+07:05 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x00000257B5AF3780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:05 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x00000257B5AF3780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:05 AM [DEBUG](cursor_pool.py-27): Inicio del with
+07:06 AM [ERROR](cursor_pool.py-18): Ocurrio un error <class 'KeyboardInterrupt'>  <traceback object at 0x00000257B5B65D00>
+07:06 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:06 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x00000257B5AF3780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:06 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000001C5C2631110>
+07:06 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001C5C2543780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:06 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000001C5C2543780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:06 AM [DEBUG](cursor_pool.py-27): Inicio del with
+07:06 AM [ERROR](cursor_pool.py-18): Ocurrio un error <class 'KeyboardInterrupt'>  <traceback object at 0x000001C5C25B5EC0>
+07:06 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:06 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001C5C2543780; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:07 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000001E417AFE590>
+07:07 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001E419541250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:07 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000001E419541250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:07 AM [DEBUG](cursor_pool.py-27): Inicio del with
+07:07 AM [DEBUG](cursor_pool.py-29): FIn del With
+07:07 AM [INFO](cursor_pool.py-21): Se realizo commit
+07:07 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:07 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001E419541250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:09 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x0000025FB1F7E710>
+07:09 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x0000025FB39A1250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:09 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x0000025FB39A1250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:09 AM [DEBUG](cursor_pool.py-27): Inicio del with
+07:09 AM [DEBUG](cursor_pool.py-30): [(1, 'jperez', '123'), (2, 'kgomez', '456')]
+07:09 AM [DEBUG](cursor_pool.py-31): FIn del With
+07:09 AM [INFO](cursor_pool.py-21): Se realizo commit
+07:09 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:09 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x0000025FB39A1250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:28 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x00000222E9E0AE50>
+07:28 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x00000222E9D51BE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:28 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x00000222E9D51BE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:28 AM [INFO](cursor_pool.py-21): Se realizo commit
+07:28 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:28 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x00000222E9D51BE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:28 AM [DEBUG](userDAO.py-26): Id Usuario: 1 |Username: jperez |Password: 123
+07:28 AM [DEBUG](userDAO.py-26): Id Usuario: 2 |Username: kgomez |Password: 456
+07:44 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000001D0A2943F90>
+07:44 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001D0A28817A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:44 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000001D0A28817A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:44 AM [ERROR](cursor_pool.py-18): Ocurrio un error <class 'psycopg2.errors.UniqueViolation'> duplicate key value violates unique constraint "usuario_pkey"
+DETAIL:  Key (id_usuario)=(1) already exists.
+ <traceback object at 0x000001D0A2951640>
+07:44 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:44 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001D0A28817A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000002B3FFDA2810>
+07:45 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000002B3FFD9D030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000002B3FFD9D030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [ERROR](cursor_pool.py-18): Ocurrio un error <class 'psycopg2.errors.UniqueViolation'> duplicate key value violates unique constraint "usuario_pkey"
+DETAIL:  Key (id_usuario)=(2) already exists.
+ <traceback object at 0x000002B3FFDAA1C0>
+07:45 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:45 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000002B3FFD9D030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x00000216AA89DFD0>
+07:45 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x00000216AA7F17A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x00000216AA7F17A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [DEBUG](userDAO.py-28): Se insertan 1 filas
+07:45 AM [INFO](cursor_pool.py-21): Se realizo commit
+07:45 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:45 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x00000216AA7F17A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:45 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x00000216AA7F17A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x00000216AA7F17A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [INFO](cursor_pool.py-21): Se realizo commit
+07:45 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+07:45 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x00000216AA7F17A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:45 AM [DEBUG](userDAO.py-37): Id Usuario: 1 |Username: jperez |Password: 123
+07:45 AM [DEBUG](userDAO.py-37): Id Usuario: 2 |Username: kgomez |Password: 456
+07:45 AM [DEBUG](userDAO.py-37): Id Usuario: 3 |Username: Rous |Password: Rochi
+08:27 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000001C3B4D5E250>
+08:27 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [DEBUG](userDAO.py-35): Se eliminaron 1 registro
+08:27 AM [INFO](cursor_pool.py-21): Se realizo commit
+08:27 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:27 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:27 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [DEBUG](userDAO.py-28): Se insertan 1 registro
+08:27 AM [INFO](cursor_pool.py-21): Se realizo commit
+08:27 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:27 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:27 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [INFO](cursor_pool.py-21): Se realizo commit
+08:27 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:27 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001C3B4CB1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:27 AM [DEBUG](userDAO.py-47): Id Usuario: 1 |Username: jperez |Password: 123
+08:27 AM [DEBUG](userDAO.py-47): Id Usuario: 2 |Username: kgomez |Password: 456
+08:27 AM [DEBUG](userDAO.py-47): Id Usuario: 3 |Username: Luis |Password: XXXLUISXXX
+08:27 AM [DEBUG](userDAO.py-47): Id Usuario: 4 |Username: Rouse |Password: Rochi
+08:30 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x00000144FC2A24D0>
+08:30 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [WARNING](userDAO.py-42): Se elimino 1 registro
+08:30 AM [INFO](cursor_pool.py-21): Se realizo commit
+08:30 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:30 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:30 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [DEBUG](userDAO.py-28): Se inserto 1 registro
+08:30 AM [INFO](cursor_pool.py-21): Se realizo commit
+08:30 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:30 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:30 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [INFO](cursor_pool.py-21): Se realizo commit
+08:30 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:30 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x00000144FC1F1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:30 AM [DEBUG](userDAO.py-57): Id Usuario: 1 |Username: jperez |Password: 123
+08:30 AM [DEBUG](userDAO.py-57): Id Usuario: 2 |Username: kgomez |Password: 456
+08:30 AM [DEBUG](userDAO.py-57): Id Usuario: 4 |Username: Rouse |Password: Rochi
+08:30 AM [DEBUG](userDAO.py-57): Id Usuario: 5 |Username: Rouse |Password: Rochi
+08:46 AM [INFO](connetion.py-25): Se creo el pool <psycopg2.pool.SimpleConnectionPool object at 0x000001F3534CFFD0>
+08:46 AM [INFO](connetion.py-38): Obteniendo la conexion <connection object at 0x000001F3538CD250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:46 AM [DEBUG](cursor_pool.py-11): Obtener la conexion <connection object at 0x000001F3538CD250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:46 AM [INFO](cursor_pool.py-21): Se realizo commit
+08:46 AM [WARNING](connetion.py-31): Ya se habia creado la conexion
+08:46 AM [INFO](connetion.py-46): Se cerro la conexion <connection object at 0x000001F3538CD250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:38 PM [DEBUG](userDAO.py-28): Se inserto 1 registro
+04:53 PM [INFO](userDAO.py-29): Se inserto 1 registro
+04:53 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+04:53 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+04:53 PM [DEBUG](userDAO.py-70): Id Usuario: 4 |Username: Rouse |Password: Rochi
+04:53 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+04:53 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+04:53 PM [DEBUG](userDAO.py-70): Id Usuario: 7 |Username: Rouse |Password: Rochi
+04:54 PM [INFO](userDAO.py-29): Se inserto 1 registro
+04:54 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+04:54 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+04:54 PM [DEBUG](userDAO.py-70): Id Usuario: 4 |Username: Rouse |Password: Rochi
+04:54 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+04:54 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+04:54 PM [DEBUG](userDAO.py-70): Id Usuario: 7 |Username: Rouse |Password: Rochi
+04:54 PM [DEBUG](userDAO.py-70): Id Usuario: 8 |Username: Rouse |Password: Rochi
+04:55 PM [ERROR](cursor_pool.py-18): Ocurrio un error <class 'KeyboardInterrupt'>  <traceback object at 0x000001F5D5923A40>
+04:55 PM [INFO](userDAO.py-29): Se inserto 1 registro
+04:55 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+04:55 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+04:55 PM [DEBUG](userDAO.py-70): Id Usuario: 4 |Username: Rouse |Password: Rochi
+04:55 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+04:55 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+04:55 PM [DEBUG](userDAO.py-70): Id Usuario: 7 |Username: Rouse |Password: Rochi
+04:55 PM [DEBUG](userDAO.py-70): Id Usuario: 8 |Username: Rouse |Password: Rochi
+04:55 PM [DEBUG](userDAO.py-70): Id Usuario: 9 |Username: Rouse |Password: Rochi
+04:55 PM [DEBUG](userDAO.py-74): Id Usuario: 1 |Username: jperez |Password: 123
+04:56 PM [INFO](userDAO.py-29): Se inserto 1 registro
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 4 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 7 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 8 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 9 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-70): Id Usuario: 10 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-74): Id Usuario: 4 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-74): Id Usuario: 5 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-74): Id Usuario: 7 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-74): Id Usuario: 8 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-74): Id Usuario: 9 |Username: Rouse |Password: Rochi
+04:56 PM [DEBUG](userDAO.py-74): Id Usuario: 10 |Username: Rouse |Password: Rochi
+05:08 PM [ERROR](cursor_pool.py-18): Ocurrio un error <class 'KeyboardInterrupt'>  <traceback object at 0x000001D0A641F180>
+05:09 PM [WARNING](userDAO.py-36): Se actualizo 1 registro
+05:15 PM [WARNING](userDAO.py-43): Se elimino 1 registro
+05:16 PM [WARNING](userDAO.py-36): Se actualizo 1 registro
+05:16 PM [WARNING](userDAO.py-43): Se elimino 1 registro
+05:20 PM [WARNING](userDAO.py-43): Se elimino 1 registro

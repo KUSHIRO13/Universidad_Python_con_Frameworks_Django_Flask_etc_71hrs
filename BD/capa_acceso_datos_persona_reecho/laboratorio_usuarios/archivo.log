@@ -1,0 +1,8 @@
+Esto es un INFO
+2023-09-03 16:55:38,558[INFO](logger_base.py-12): Esto es un INFO
+04:56: PM [INFO](logger_base.py-13): Esto es un INFO
+04:56 PM [INFO](logger_base.py-13): Esto es un INFO
+06:10 AM [DEBUG](user.py-38): Id Usuario: 1Username: Cristofer|Password: Cris2006
+06:10 AM [DEBUG](user.py-38): Id Usuario: 1
+Username: Cristofer|Password: Cris2006
+06:10 AM [DEBUG](user.py-38): Id Usuario: 1 |Username: Cristofer |Password: Cris2006

@@ -1,1 +1,2060 @@
 [INFO] 04:06:07 PM (logger_base.py-14): Esta es nuna prueba de INFO
+[INFO] 07:18:11 PM (connetion.py-25): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000017B52A06A50>'
+[DEBUG] 07:18:11 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x0000017B54731690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:18:11 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:18:11 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x0000017B547317A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:18:11 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:18:11 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x0000017B547318B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:18:11 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:18:11 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x0000017B547319C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:18:11 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:18:11 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x0000017B54731AD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 07:19:52 PM (connetion.py-25): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000222DEDBF010>'
+[DEBUG] 07:19:52 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x00000222E0B90D00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:19:52 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:19:52 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x00000222E0B91140; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:19:52 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:19:52 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x00000222E0B91250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:19:52 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:19:52 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x00000222E0B91360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:19:52 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:19:52 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x00000222E0B91470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:19:52 PM (connetion.py-31): El pool ya existia, se devuelve
+[INFO] 07:29:24 PM (connetion.py-25): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001F1E566F010>'
+[DEBUG] 07:29:24 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x000001F1E7420D00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:29:24 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:29:24 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x000001F1E7421140; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:29:24 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:29:24 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x000001F1E7421250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:29:24 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:29:24 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x000001F1E7421360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:29:24 PM (connetion.py-31): El pool ya existia, se devuelve
+[DEBUG] 07:29:24 PM (connetion.py-36): Conexion obtenida del pool <connection object at 0x000001F1E7421470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:29:24 PM (connetion.py-31): El pool ya existia, se devuelve
+[INFO] 07:55:02 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001909C846410>'
+[DEBUG] 07:55:02 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001909E2F0E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:55:02 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 07:55:02 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001909E2F1250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:55:02 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 07:55:02 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001909E2F1360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:55:02 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 07:55:02 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001909E2F1470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:55:02 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 07:55:02 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001909E2F1580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:55:02 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 07:55:02 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001909E2F1360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 07:55:02 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 07:55:02 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001909E2F1360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 08:24:34 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001790F576410>'
+[DEBUG] 08:24:34 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000017911010E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 08:24:34 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 08:24:34 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000017911011250; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 08:24:34 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 08:24:34 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000017911011360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 08:24:34 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 08:24:34 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000017911011470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 08:24:34 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 08:24:34 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000017911011580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 08:24:34 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 08:24:34 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000017911011360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 08:24:34 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 08:24:34 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000017911011360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 12:37:21 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 12:37:21 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000002819877F590>'
+[DEBUG] 12:37:21 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000002819A5118B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 12:37:21 PM (pool_cursor.py-33): Dentro del with
+[DEBUG] 12:37:22 PM (pool_cursor.py-35): [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (59, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+[INFO] 12:37:22 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 12:37:22 PM (pool_cursor.py-27): Commit de la transaccion
+[INFO] 12:40:01 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 12:40:02 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000240B1A6D350>'
+[DEBUG] 12:40:02 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000240B3801030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 12:40:02 PM (pool_cursor.py-33): Dentro del with
+[DEBUG] 12:40:02 PM (pool_cursor.py-35): [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (59, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+[INFO] 12:40:02 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 12:40:02 PM (pool_cursor.py-27): Commit de la transaccion
+[INFO] 12:47:18 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 12:47:19 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000022F6BBB8C10>'
+[DEBUG] 12:47:19 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000022F6BC26F00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 12:47:25 PM (pool_cursor.py-33): Dentro del with
+[DEBUG] 12:47:44 PM (pool_cursor.py-35): [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (59, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+[INFO] 12:47:59 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 12:48:23 PM (pool_cursor.py-27): Commit de la transaccion
+[INFO] 12:54:11 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 12:54:11 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001D8A9E0D350>'
+[DEBUG] 12:54:11 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001D8ABB01030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 12:54:11 PM (pool_cursor.py-33): Dentro del with
+[DEBUG] 12:54:11 PM (pool_cursor.py-35): [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (59, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+[INFO] 12:54:11 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 12:54:11 PM (pool_cursor.py-27): Commit de la transaccion
+[INFO] 12:59:52 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 12:59:53 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000254EA48D350>'
+[DEBUG] 12:59:53 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000254EC221030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 12:59:53 PM (pool_cursor.py-33): Dentro del with
+[DEBUG] 12:59:53 PM (pool_cursor.py-35): [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (59, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+[INFO] 12:59:53 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 12:59:53 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 12:59:53 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 12:59:53 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000254EC221030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 08:32:06 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan Apellido: Diaz
+Email: jdiaz@gmail.com
+[DEBUG] 08:32:19 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan--Apellido: Diaz
+Email: jdiaz@gmail.com
+[DEBUG] 08:32:29 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz@gmail.com
+[DEBUG] 08:41:37 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz@gmail.com
+[DEBUG] 08:41:37 AM (persona.py-50): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman@gmail.com
+[DEBUG] 08:47:25 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz@gmail.com
+[DEBUG] 08:47:25 AM (persona.py-50): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman@gmail.com
+[DEBUG] 08:47:25 AM (persona.py-53): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz@gmail.com
+[DEBUG] 08:48:13 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz@gmail.com
+[DEBUG] 08:48:13 AM (persona.py-50): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman@gmail.com
+[DEBUG] 08:48:48 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz
+[DEBUG] 08:48:48 AM (persona.py-50): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman
+[DEBUG] 08:48:48 AM (persona.py-53): 
+Id Persona: 1
+Nombre: None|Apellido: None
+Email: None
+[DEBUG] 08:50:09 AM (persona.py-51): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz
+[DEBUG] 08:50:09 AM (persona.py-54): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman
+[DEBUG] 08:50:09 AM (persona.py-57): 
+Id Persona: 1
+Nombre: None|Apellido: None
+Email: None
+[DEBUG] 08:50:38 AM (persona.py-49): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz
+[DEBUG] 08:50:38 AM (persona.py-52): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman
+[DEBUG] 08:50:38 AM (persona.py-55): 
+Id Persona: 1
+Nombre: None|Apellido: None
+Email: None
+[DEBUG] 08:50:59 AM (persona.py-49): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz
+[DEBUG] 08:50:59 AM (persona.py-52): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman
+[DEBUG] 08:50:59 AM (persona.py-55): 
+Id Persona: 1
+Nombre: None|Apellido: None
+Email: None
+[DEBUG] 08:51:33 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz
+[DEBUG] 08:51:33 AM (persona.py-50): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman
+[DEBUG] 08:51:33 AM (persona.py-53): 
+Id Persona: 1
+Nombre: None|Apellido: None
+Email: None
+[DEBUG] 08:52:12 AM (persona.py-47): 
+Id Persona: 1
+Nombre: Juan|Apellido: Diaz
+Email: jdiaz@gmail.com
+[DEBUG] 08:52:12 AM (persona.py-50): 
+Id Persona: None
+Nombre: Carlos|Apellido: Gusman
+Email: cgusman@gmail.com
+[DEBUG] 08:52:12 AM (persona.py-53): 
+Id Persona: 1
+Nombre: None|Apellido: None
+Email: None
+[INFO] 02:43:01 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:43:01 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000002690090A190>'
+[DEBUG] 02:43:01 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000002690098D030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[ERROR] 02:43:01 PM (persona_dao.py-22): Ocurrio un tipo ''psycopg2.extensions.cursor' object has no attribute 'fecthall''
+[INFO] 02:43:01 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:43:01 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:43:01 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:43:01 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000002690098D030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:44:38 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:44:38 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000189B443A190>'
+[DEBUG] 02:44:38 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000189B44BD030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[ERROR] 02:44:38 PM (persona_dao.py-22): Ocurrio un tipo error ''psycopg2.extensions.cursor' object has no attribute 'fectall''
+[INFO] 02:44:38 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:44:38 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:44:38 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:44:38 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000189B44BD030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:45:07 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:45:07 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000169EC798210>'
+[DEBUG] 02:45:07 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000169ECB8D030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 02:45:07 PM (persona_dao.py-20): [(58, 'Pedro', 'Najera', 'pnajera@gmail.com'), (59, 'Pedro', 'Najera', 'pnajera@gmail.com'), (52, 'Kevin', 'Pinzon', 'kpinzon@gmail.com'), (6, 'Carlos', 'Gutierres', 'cgutierres'), (8, 'Carlos', 'Lara', 'clara@gmail.com'), (10, 'Angel', 'Quintana', 'aquintana@gmail.com'), (11, 'Carlos', 'Lara', 'clara@gmail.com'), (13, 'Angel', 'Quintana', 'aquintana@gmail.com'), (12, 'Kevin', 'Carlos', 'kcarlos@gmail.com'), (15, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (16, 'Maria', 'Esparsa', 'mesparsa@gmail.com'), (17, 'Carlos', 'Gomez', 'cgomez@gmail.com'), (24, 'Alex', 'Rojas', 'arojas@gmail.com'), (36, 'Alex', 'Rojas', 'arojas@gmail.com'), (37, 'Alex', 'Rojas', 'arojas@gmail.com'), (5, 'Juan', 'Perez', 'jperez@gmail.com'), (48, 'Pedro', 'Najera', 'pnajera@gmail.com'), (50, 'Pedro', 'Najera', 'pnajera@gmail.com'), (51, 'Pedro', 'Najera', 'pnajera@gmail.com'), (54, 'Pedro', 'Najera', 'pnajera@gmail.com'), (56, 'Pedro', 'Najera', 'pnajera@gmail.com'), (57, 'Pedro', 'Najera', 'pnajera@gmail.com')]
+[INFO] 02:45:07 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:45:07 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:45:07 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:45:07 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000169ECB8D030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:48:16 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:48:16 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000185BB4E4B50>'
+[DEBUG] 02:48:16 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000185BD311470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:48:16 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:48:16 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:48:16 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:48:16 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000185BD311470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:48:36 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:48:36 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001F5BF834B50>'
+[DEBUG] 02:48:36 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001F5C1615030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:48:36 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:48:36 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:48:36 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:48:36 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001F5C1615030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:49:45 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:49:46 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001AE321A4B50>'
+[DEBUG] 02:49:46 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001AE33E65030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:49:46 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:49:46 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:49:46 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:49:46 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001AE33E65030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:51:11 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:51:11 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001A938E1F310>'
+[DEBUG] 02:51:11 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001A938D86AC0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:52:43 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:52:43 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:52:43 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:52:43 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001A938D86AC0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:53:15 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:53:15 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001C2EE6C4B50>'
+[DEBUG] 02:53:15 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001C2F04D5030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 02:53:15 PM (persona_dao.py-25): [<persona.Persona object at 0x000001C2F0583290>, <persona.Persona object at 0x000001C2EEA689D0>, <persona.Persona object at 0x000001C2F05750D0>, <persona.Persona object at 0x000001C2F05832D0>, <persona.Persona object at 0x000001C2F0583310>, <persona.Persona object at 0x000001C2F0583390>, <persona.Persona object at 0x000001C2F05833D0>, <persona.Persona object at 0x000001C2F0583410>, <persona.Persona object at 0x000001C2F0583450>, <persona.Persona object at 0x000001C2F0583350>, <persona.Persona object at 0x000001C2F0583490>, <persona.Persona object at 0x000001C2F05834D0>, <persona.Persona object at 0x000001C2F0583510>, <persona.Persona object at 0x000001C2F0583550>, <persona.Persona object at 0x000001C2F0583590>, <persona.Persona object at 0x000001C2F05835D0>, <persona.Persona object at 0x000001C2F0583610>, <persona.Persona object at 0x000001C2F0583650>, <persona.Persona object at 0x000001C2F0583690>, <persona.Persona object at 0x000001C2F05836D0>, <persona.Persona object at 0x000001C2F0583710>, <persona.Persona object at 0x000001C2F0583750>]
+[INFO] 02:53:15 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:53:15 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:53:15 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:53:15 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001C2F04D5030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:55:27 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:55:27 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001848A759010>'
+[DEBUG] 02:55:27 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001848A6C5030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:55:27 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:55:27 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:55:27 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:55:27 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001848A6C5030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:55:27 PM (persona_dao.py-33): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 02:57:01 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 02:57:01 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000015C3A826210>'
+[DEBUG] 02:57:01 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000015C3A785030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 02:57:01 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 02:57:01 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 02:57:01 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 02:57:01 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000015C3A785030; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 02:57:01 PM (persona_dao.py-33): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 03:21:41 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 03:21:41 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000013F8910AB50>'
+[DEBUG] 03:21:41 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000013F8AB65580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[ERROR] 03:21:42 PM (persona_dao.py-37): Ocurrio un error tipo 'relation "person" does not exist
+LINE 1: INSERT INTO person(nombre,apellido,email) VALUES('Navara','p...
+                    ^
+'
+[INFO] 03:21:42 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 03:21:42 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 03:21:42 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:21:42 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000013F8AB65580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:21:42 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 03:21:42 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 03:21:42 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000013F8AB65580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:21:42 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 03:21:42 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 03:21:42 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:21:42 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000013F8AB65580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:21:42 PM (persona_dao.py-47): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 03:23:23 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 03:23:23 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001DB770DAB50>'
+[DEBUG] 03:23:23 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001DB78B05580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[ERROR] 03:23:23 PM (persona_dao.py-37): Ocurrio un error tipo ''int' object is not callable'
+[INFO] 03:23:23 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 03:23:23 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 03:23:23 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:23:23 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001DB78B05580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:23:23 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 03:23:23 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 03:23:23 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001DB78B05580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:23:23 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 03:23:23 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 03:23:23 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:23:23 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001DB78B05580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 60
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:23:23 PM (persona_dao.py-47): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 03:24:45 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 03:24:46 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000018F720FF050>'
+[DEBUG] 03:24:46 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000018F72067230; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:25:50 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[ERROR] 03:25:50 PM (pool_cursor.py-24): Ocurrio un error ''
+Tipo: <class 'KeyboardInterrupt'>
+Detalle: <traceback object at 0x0000018F721097C0>
+[WARNING] 03:25:50 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:25:50 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000018F72067230; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:25:51 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 03:25:51 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000208C945AB50>'
+[DEBUG] 03:25:51 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000208CAEC5580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:25:51 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 03:25:51 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 03:25:51 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 03:25:51 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:25:51 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000208CAEC5580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:25:51 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 03:25:51 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 03:25:51 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000208CAEC5580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:25:51 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 03:25:51 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 03:25:51 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:25:51 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000208CAEC5580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 60
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:25:51 PM (persona_dao.py-47): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 03:39:58 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 03:39:58 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000242C19BABD0>'
+[DEBUG] 03:39:58 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000242C3445580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:39:58 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 03:39:58 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 03:39:58 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 03:39:58 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:39:58 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000242C3445580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:39:58 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 03:39:58 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 03:39:58 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000242C3445580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 03:39:58 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 03:39:58 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 03:39:58 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 03:39:58 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000242C3445580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 60
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 03:39:58 PM (persona_dao.py-47): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 04:10:08 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:10:09 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000025382795150>'
+[DEBUG] 04:10:09 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000253826F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:10:11 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:10:11 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:10:11 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:10:11 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:10:11 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000253826F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:10:11 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:10:11 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:10:11 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000253826F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:10:11 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:10:11 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:10:11 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:10:11 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000253826F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 60
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 64
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:11 PM (persona_dao.py-58): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 04:10:47 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:10:47 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000023DE977AD50>'
+[DEBUG] 04:10:47 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000023DEB1A5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[ERROR] 04:10:47 PM (persona_dao.py-47): Ocurrio un tipo not all arguments converted during string formatting
+[INFO] 04:10:47 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:10:47 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:10:47 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:10:47 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000023DEB1A5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:10:47 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:10:47 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:10:47 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000023DEB1A5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:10:47 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:10:47 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:10:47 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:10:47 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:10:47 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000023DEB1A5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:10:47 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:10:47 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:10:47 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000023DEB1A5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:10:47 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:10:47 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:10:47 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:10:47 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000023DEB1A5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 60
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 64
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 65
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:10:47 PM (persona_dao.py-59): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 04:14:19 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:14:19 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x00000159BEB8AD90>'
+[DEBUG] 04:14:19 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000159C05C5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:14:19 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:14:19 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:14:19 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:14:19 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:14:19 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000159C05C5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:14:19 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:14:19 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:14:19 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000159C05C5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[ERROR] 04:14:19 PM (persona_dao.py-47): Ocurrio un tipo not all arguments converted during string formatting
+[INFO] 04:14:19 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:14:19 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:14:19 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:14:19 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000159C05C5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:14:19 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:14:19 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:14:19 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x00000159C05C5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:14:19 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:14:19 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:14:19 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:14:19 PM (connetion.py-44): Se regresa la conexion <connection object at 0x00000159C05C5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 60
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 64
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 65
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 66
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:14:19 PM (persona_dao.py-59): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 04:15:09 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:15:09 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000001FB9A99E5D0>'
+[DEBUG] 04:15:09 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001FB9A905E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:15:09 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:15:09 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:15:09 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:15:09 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:15:09 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001FB9A905E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:15:15 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:15:15 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:15:15 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000001FB9A905E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:19:51 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[ERROR] 04:19:51 PM (pool_cursor.py-24): Ocurrio un error ''
+Tipo: <class 'KeyboardInterrupt'>
+Detalle: <traceback object at 0x000001FB981CFE00>
+[WARNING] 04:19:51 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:19:51 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000001FB9A905E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:19:54 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:19:54 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x000002DA306EAD90>'
+[DEBUG] 04:19:54 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000002DA32115470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:19:54 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:19:54 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:19:54 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:19:54 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:19:54 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000002DA32115470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:19:54 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:19:54 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:19:54 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000002DA32115470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[ERROR] 04:19:54 PM (persona_dao.py-47): Ocurrio un tipo syntax error at or near "email"
+LINE 1: ...E persona SET nombre = 'Jorge', apellido ='Hanma' email = 'h...
+                                                             ^
+
+[INFO] 04:19:54 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:19:54 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:19:54 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:19:54 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000002DA32115470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:19:54 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:19:54 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:19:54 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x000002DA32115470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:19:54 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:19:54 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:19:54 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:19:54 PM (connetion.py-44): Se regresa la conexion <connection object at 0x000002DA32115470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 60
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 64
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 65
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 66
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 67
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 68
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:19:54 PM (persona_dao.py-59): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 04:20:22 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:20:22 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000021F4E6BAD90>'
+[DEBUG] 04:20:22 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000021F50135470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:22 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:20:22 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:20:22 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:20:22 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:20:22 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000021F50135470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:22 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:20:22 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:20:22 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000021F50135470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[ERROR] 04:20:22 PM (persona_dao.py-47): Ocurrio un tipo column "id_person" does not exist
+LINE 1: ...ellido ='Hanma', email = 'hjanma@gmail.com' WHERE id_person ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "persona.id_persona".
+
+[INFO] 04:20:22 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:20:22 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:20:22 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:20:22 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000021F50135470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:22 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:20:22 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:20:22 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000021F50135470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:22 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:20:22 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:20:22 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:20:22 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000021F50135470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 60
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 64
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 65
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 66
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 67
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 68
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 69
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:22 PM (persona_dao.py-59): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 04:20:41 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:20:41 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000020EC07CAD90>'
+[DEBUG] 04:20:41 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000020EC21F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:41 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:20:41 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:20:41 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:20:41 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:20:41 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000020EC21F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:41 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:20:41 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:20:41 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000020EC21F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:49 PM (persona_dao.py-45): Se actualizaron 1 registros
+[INFO] 04:20:49 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:20:50 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:20:50 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:20:50 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000020EC21F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:50 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:20:50 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:20:50 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000020EC21F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:20:50 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:20:50 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:20:50 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:20:50 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000020EC21F5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 64
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 65
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 66
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 67
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 68
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 69
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 70
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 60
+Nombre: Jorge|Apellido: Hanma
+Email: hjanma@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:20:50 PM (persona_dao.py-59): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 04:25:48 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:25:48 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000019C4E26B550>'
+[DEBUG] 04:25:48 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000019C4FC95470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:25:48 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:25:48 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:25:48 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:25:48 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:25:48 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000019C4FC95470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:25:48 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:25:48 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:25:48 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000019C4FC95470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:25:48 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:25:48 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:25:48 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:25:48 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000019C4FC95470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 64
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 65
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 66
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 67
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 68
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 69
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 70
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 60
+Nombre: Jorge|Apellido: Hanma
+Email: hjanma@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 71
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:25:48 PM (persona_dao.py-72): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[INFO] 04:27:07 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[INFO] 04:27:08 PM (connetion.py-26): Se crea el pool '<psycopg2.pool.SimpleConnectionPool object at 0x0000024F9059B550>'
+[DEBUG] 04:27:08 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000024F91FC5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:27:08 PM (persona_dao.py-35): Se afectaron 1 filas
+[INFO] 04:27:08 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:27:08 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:27:08 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:27:08 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000024F91FC5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:27:08 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:27:08 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:27:08 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000024F91FC5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[WARNING] 04:27:08 PM (persona_dao.py-55): Valor eliminado 1
+[INFO] 04:27:08 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:27:08 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:27:08 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:27:08 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000024F91FC5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:27:08 PM (pool_cursor.py-12): Se inicia el WITH con ENTER
+[WARNING] 04:27:08 PM (connetion.py-32): El pool ya existia, se devuelve
+[DEBUG] 04:27:08 PM (connetion.py-38): Conexion obtenida del pool <connection object at 0x0000024F91FC5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[INFO] 04:27:08 PM (pool_cursor.py-21): Se ejecuta el metodo __exit__
+[DEBUG] 04:27:08 PM (pool_cursor.py-27): Commit de la transaccion
+[WARNING] 04:27:08 PM (connetion.py-32): El pool ya existia, se devuelve
+[WARNING] 04:27:08 PM (connetion.py-44): Se regresa la conexion <connection object at 0x0000024F91FC5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 58
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 59
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 52
+Nombre: Kevin|Apellido: Pinzon
+Email: kpinzon@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 62
+Nombre: Navara|Apellido: pnavara@gmail.com
+Email: None
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 6
+Nombre: Carlos|Apellido: Gutierres
+Email: cgutierres
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 63
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 8
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 64
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 10
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 11
+Nombre: Carlos|Apellido: Lara
+Email: clara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 13
+Nombre: Angel|Apellido: Quintana
+Email: aquintana@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 65
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 66
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 67
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 68
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 12
+Nombre: Kevin|Apellido: Carlos
+Email: kcarlos@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 69
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 15
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 16
+Nombre: Maria|Apellido: Esparsa
+Email: mesparsa@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 17
+Nombre: Carlos|Apellido: Gomez
+Email: cgomez@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 60
+Nombre: Jorge|Apellido: Hanma
+Email: hjanma@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 71
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 72
+Nombre: Pedro|Apellido: Navara
+Email: pnavara@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 24
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 36
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 37
+Nombre: Alex|Apellido: Rojas
+Email: arojas@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 5
+Nombre: Juan|Apellido: Perez
+Email: jperez@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 48
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 50
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 51
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 54
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 56
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com
+[DEBUG] 04:27:08 PM (persona_dao.py-73): 
+Id Persona: 57
+Nombre: Pedro|Apellido: Najera
+Email: pnajera@gmail.com

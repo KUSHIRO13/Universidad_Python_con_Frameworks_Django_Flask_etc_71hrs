@@ -2,6 +2,7 @@ from logger_base import log
 from psycopg2 import pool
 import sys
 
+
 class Connetion:
     _USERNAME = "postgres"
     _PASSWORD = "admin"
@@ -16,7 +17,7 @@ class Connetion:
     def obtained_pool(cls):
         if cls._pool == None:
             try:
-                cls._pool = pool.SimpleConnectionPool(cls._MIN_CONN,cls._MAX_CONN,
+                cls._pool = pool.SimpleConnectionPool(cls._MIN_CONN, cls._MAX_CONN,
                                                       user=cls._USERNAME,
                                                       password=cls._PASSWORD,
                                                       host=cls._HOST,
@@ -30,6 +31,28 @@ class Connetion:
         else:
             log.warning("El pool ya existia, se devuelve")
             return cls._pool
+
     @classmethod
     def obtained_connetion(cls):
-        pass
+        connetion = cls.obtained_pool().getconn()
+        log.debug(f"Conexion obtenida del pool {connetion}")
+        return connetion
+
+    @classmethod
+    def leave_connetion(cls, connetion):
+        cls.obtained_pool().putconn(connetion)
+        log.warning(f"Se regresa la conexion {connetion}")
+
+    @classmethod
+    def closed_connetion(cls):
+        cls.obtained_pool().closeall()
+
+
+if __name__ == "__main__":
+    connetion1 = Connetion.obtained_connetion()
+    connetion2 = Connetion.obtained_connetion()
+    connetion3 = Connetion.obtained_connetion()
+    connetion4 = Connetion.obtained_connetion()
+    connetion5 = Connetion.obtained_connetion()
+    Connetion.leave_connetion(connetion3)
+    connetion6 = Connetion.obtained_connetion()
