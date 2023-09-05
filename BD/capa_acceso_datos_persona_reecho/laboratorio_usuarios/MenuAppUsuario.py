@@ -4,7 +4,7 @@ from userDAO import UserDAO
 
 if __name__ == "__main__":
     # Variables
-    opciones,usuarios,username,password = None,None,None,None
+    opciones, usuarios, username, password = None, None, None, None
 
     # Inicio Bucle
     while opciones != "5":
@@ -16,14 +16,14 @@ if __name__ == "__main__":
 5) Salir
 >>: """)
         if opciones == "1":
-                usuarios = UserDAO.select()
-                for user in usuarios:
-                    print(user)
+            usuarios = UserDAO.select()
+            for user in usuarios:
+                print(user)
         elif opciones == "2":
             with CursorPool() as cursor:
                 username = input("Ingrese su nombre de usuario: ")
                 password = input("Ingrese su contraseña: ")
-                usuarios = User(username=username,password=password)
+                usuarios = User(username=username, password=password)
                 UserDAO.insert(usuarios)
         elif opciones == "3":
             with CursorPool() as cursor:
@@ -38,12 +38,13 @@ if __name__ == "__main__":
                         actualizar = input("Entonces cual es su id: ")
                         nombre = input("Cual sera el nuevo nombre: ")
                         contrasena = input("Cual sera la nueva contraseña: ")
-                        usuarios = User(actualizar,nombre,contrasena)
+                        usuarios = User(actualizar, nombre, contrasena)
                         UserDAO.update(usuarios)
                     else:
                         print("Tal vez se equivoco de opcion")
                 else:
-                    print(f"No se encontraron resultados para '{confirmacion[0]}' con la contraseña '{confirmacion[1]}'")
+                    print(
+                        f"No se encontraron resultados para '{confirmacion[0]}' con la contraseña '{confirmacion[1]}'")
         elif opciones == "4":
             confirmacion = [input("Como se llama el usuario?: "), input("Cual es la contraseña?: ")]
             usuarios = UserDAO.search(confirmacion)

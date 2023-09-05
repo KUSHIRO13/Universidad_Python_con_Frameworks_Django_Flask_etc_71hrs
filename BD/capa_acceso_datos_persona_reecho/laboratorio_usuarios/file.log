@@ -243,3 +243,75 @@ DETAIL:  Key (id_usuario)=(2) already exists.
 05:16 PM [WARNING](userDAO.py-36): Se actualizo 1 registro
 05:16 PM [WARNING](userDAO.py-43): Se elimino 1 registro
 05:20 PM [WARNING](userDAO.py-43): Se elimino 1 registro
+05:40 PM [DEBUG](user.py-43): Id Usuario: 1 |Username: Cristofer |Password: Cris2006
+06:35 PM [DEBUG](user.py-43): Id Usuario: 1 |Username: Cristofer |Password: Cris2006
+06:37 PM [INFO](userDAO.py-29): Se inserto 1 registro
+06:37 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+06:37 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+06:37 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:37 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+06:37 PM [DEBUG](userDAO.py-70): Id Usuario: 10 |Username: Eduardo |Password: Ecor1971
+06:37 PM [DEBUG](userDAO.py-70): Id Usuario: 8 |Username: Esquinal |Password: Laurencio
+06:37 PM [DEBUG](userDAO.py-70): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:37 PM [DEBUG](userDAO.py-74): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:37 PM [DEBUG](userDAO.py-74): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:39 PM [INFO](userDAO.py-29): Se inserto 1 registro
+06:39 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+06:39 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+06:39 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:39 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+06:39 PM [DEBUG](userDAO.py-70): Id Usuario: 10 |Username: Eduardo |Password: Ecor1971
+06:39 PM [DEBUG](userDAO.py-70): Id Usuario: 8 |Username: Esquinal |Password: Laurencio
+06:39 PM [DEBUG](userDAO.py-70): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:39 PM [DEBUG](userDAO.py-70): Id Usuario: 12 |Username: Rouse |Password: Rochi
+06:39 PM [DEBUG](userDAO.py-74): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:39 PM [DEBUG](userDAO.py-74): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:39 PM [DEBUG](userDAO.py-74): Id Usuario: 12 |Username: Rouse |Password: Rochi
+06:43 PM [INFO](userDAO.py-29): Se inserto 1 registro
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 10 |Username: Eduardo |Password: Ecor1971
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 8 |Username: Esquinal |Password: Laurencio
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 12 |Username: Rouse |Password: Rochi
+06:43 PM [DEBUG](userDAO.py-70): Id Usuario: 13 |Username: Rouse |Password: Rochi
+06:43 PM [DEBUG](userDAO.py-74): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:43 PM [DEBUG](userDAO.py-74): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:43 PM [DEBUG](userDAO.py-74): Id Usuario: 12 |Username: Rouse |Password: Rochi
+06:43 PM [DEBUG](userDAO.py-74): Id Usuario: 13 |Username: Rouse |Password: Rochi
+06:47 PM [INFO](userDAO.py-29): Se inserto 1 registro
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 10 |Username: Eduardo |Password: Ecor1971
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 8 |Username: Esquinal |Password: Laurencio
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 12 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 13 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-70): Id Usuario: 14 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-74): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-74): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-74): Id Usuario: 12 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-74): Id Usuario: 13 |Username: Rouse |Password: Rochi
+06:47 PM [DEBUG](userDAO.py-74): Id Usuario: 14 |Username: Rouse |Password: Rochi
+06:50 PM [INFO](userDAO.py-29): Se inserto 1 registro
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 1 |Username: jperez |Password: 123
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 2 |Username: kgomez |Password: 456
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 6 |Username: Roberto |Password: Quien Es 2006
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 10 |Username: Eduardo |Password: Ecor1971
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 8 |Username: Esquinal |Password: Laurencio
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 12 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 13 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 14 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-70): Id Usuario: 15 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-74): Id Usuario: 5 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-74): Id Usuario: 11 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-74): Id Usuario: 12 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-74): Id Usuario: 13 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-74): Id Usuario: 14 |Username: Rouse |Password: Rochi
+06:50 PM [DEBUG](userDAO.py-74): Id Usuario: 15 |Username: Rouse |Password: Rochi
