@@ -1,17 +1,13 @@
-# Alcanlce de variables (Scope)
+# Mas de alcande de variables
+def funcion_externa():
+    var_local_externa = 'Variable Local Externa'
+    def funcion_anidada():
+        var_local_anidada = 'Variable Local Anidada'
+        nonlocal var_local_externa
+        var_local_externa = 'Nuevo Valor'
+        print(f"Nuevo valor : {var_local_externa}")
 
-var_global = 'Variable Global'
+    funcion_anidada()
 
-
-def imprimir():
-    global var_global
-    print(f"Variables global desde un funcion {var_global}")
-    var_local = 'Variable Local'
-    print(f"Variables global desde un funcion {var_local}")
-    def funcion_anidad():
-        print(f"Variables global desde una funcion anidada {var_local}")
-
-    var_global = 'Hola'
-    print(f"Nuevo valor de la variable global: {var_global}")
-    funcion_anidad()
-imprimir()
+    
+funcion_externa()
