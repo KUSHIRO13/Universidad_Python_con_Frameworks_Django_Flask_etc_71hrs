@@ -54,5 +54,5 @@ def repetir(a):
     return a
 
 
-resultado = repetir(15)
+resultado = repetir(1)
 print(resultado)
