@@ -1,7 +1,7 @@
 import sys
 import os
 import tkinter as tk
-from tkinter import messagebox, Menu
+from tkinter import messagebox, Menu, ttk
 
 def ventanas():
     # Buscar la direcion
@@ -14,6 +14,14 @@ def ventanas():
     ventana.title('login/Ingreso')
     ventana.geometry('300x130')
     ventana.iconbitmap(dir_ + separador + 'icono' + separador + 'icono.ico')
+    ventana.resizable(0,0) # Evita que se modifique el tamaño o lo modifica
+
+    # Configuraciones
+    ventana.rowconfigure(0, weight=1)
+    ventana.rowconfigure(1, weight=1)
+    ventana.rowconfigure(2, weight=3)
+    ventana.columnconfigure(0, weight=1)
+    ventana.columnconfigure(1, weight=4)
 
     # Menu
     def crear_menu():
@@ -39,13 +47,6 @@ def ventanas():
 
     crear_menu()
 
-    # Configuraciones
-    ventana.rowconfigure(0, weight=1)
-    ventana.rowconfigure(1, weight=1)
-    ventana.rowconfigure(2, weight=3)
-    ventana.columnconfigure(0, weight=1)
-    ventana.columnconfigure(1, weight=4)
-
     # Eventos
     def entrar():
         usuario = txtfield1.get()
@@ -59,11 +60,11 @@ def ventanas():
         else:
             messagebox.showinfo('Bienvenido', f'Usuario: {usuario}\nContraseña: {contrasena}')
     # Widgets
-    label1 = tk.Label(ventana, text='Usuario:')
-    label2 = tk.Label(ventana, text='Password:')
-    txtfield1 = tk.Entry(ventana, width=25)
-    txtfield2 = tk.Entry(ventana, width=25, show='*')
-    btn_submit = tk.Button(ventana, text='Login', command=entrar)
+    label1 = ttk.Label(ventana, text='Usuario:')
+    label2 = ttk.Label(ventana, text='Password:')
+    txtfield1 = ttk.Entry(ventana, width=25)
+    txtfield2 = ttk.Entry(ventana, width=25, show='*')
+    btn_submit = ttk.Button(ventana, text='Login', command=entrar)
 
     # Grid
     label1.grid(row=0, column=0, padx='25')
